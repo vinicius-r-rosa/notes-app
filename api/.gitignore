@@ -10,4 +10,6 @@ logs/
 npm-debug.log*
 
 # Ignore .env file
-.env
+# Para um ambiente produtivo o .env precisa ser privado. 
+# Como estamos rodando apenas localmente, ele pode ficar comentado. 
+# .env
