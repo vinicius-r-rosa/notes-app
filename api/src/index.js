@@ -8,6 +8,7 @@ const cors = require('cors');
 
 // constants
 const PORT = api.port;
+const ALLOWED_ORIGINS = api.allowedOrigins;
 
 // -------------
 // APP
@@ -16,10 +17,9 @@ const app = express();
 // app.use(cors())
 
 // To set CORS configuration **before** routing
-const allowedOrigins = ['http://localhost:3000'];
 app.use(
   cors({
-    origin: allowedOrigins
+    origin: ALLOWED_ORIGINS
   })
 );
 

@@ -4,7 +4,8 @@ const DB_CONN_STRING = process.env.DB_CONN_STRING || 'mongodb+srv://<USER_NAME_V
 
 module.exports = {
   api: {
-    port: parseInt(process.env.API_PORT) || 4000
+    port: parseInt(process.env.API_PORT) || 4000,
+    allowedOrigins: process.env.ALLOWED_ORIGINS || ['http://localhost:3000']
   },
   database: {
     uri: DB_CONN_STRING,
