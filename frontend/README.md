@@ -1,6 +1,6 @@
 # myNotes
 
-Backend da aplicação
+Frontend da aplicação
 
 ## Pré-requisitos
 
@@ -19,20 +19,16 @@ Para fazer isso:
 2. Vá até a pasta "notes-app/frontend" (Exemplo: "C:\users\<user_name>\notes-app\frontend")
 3. Digite o comando: npm install
 
-![npm-install](./src/assets/npm-install.png)
-
 ## Rodando o projeto
 
 1. Abra um terminal, seja Linux, CMD, PowerShell;
 2. Vá até a pasta "notes-app/frontend" (Exemplo: "C:\users\<user_name>\notes-app\frontend")
 3. Digite o comando: npm run start
 
-![npm-run-start](./src/assets/npm-run-start.png)
-
 Aguarde até verificar a seguinte mensagem:
 
-![npm-run-start-2](./src/assets/npm-run-start-2.png)
+![npm-run-start](./src/assets/npm-run-start.png)
 
-**Pronto! A API está rodando localmente.**
+**Pronto! O frontend está rodando localmente. Basta acessá-lo em:** [http://localhost:3000/](http://localhost:3000/)
 
 ## OBS: PARA O FUNCIONAMENTO PLENO DO FRONTEND, A API DEVE ESTAR RODANDO SIMULTANEAMENTE
