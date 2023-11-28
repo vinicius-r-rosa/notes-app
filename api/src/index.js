@@ -8,7 +8,7 @@ const cors = require('cors');
 
 // constants
 const PORT = api.port;
-const ALLOWED_ORIGINS = api.allowedOrigins;
+const ALLOWED_ORIGIN = api.allowedOrigin;
 
 // -------------
 // APP
@@ -19,7 +19,7 @@ const app = express();
 // To set CORS configuration **before** routing
 app.use(
   cors({
-    origin: ALLOWED_ORIGINS
+    origin: ALLOWED_ORIGIN
   })
 );
 
